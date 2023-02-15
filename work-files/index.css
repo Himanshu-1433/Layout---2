@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo-img {
+    margin: 10px 20px;
+    width: 20%;
+
+}
+
+#logo-name {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #d06444;
+}
+
+#logo-name span {
+    color: black;
+}
+
+#navbar-layout {
+    text-align: center;
+    max-width: 38%;
+    padding: 10% 8%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgba(73, 115, 117, 0.589);
+}
+
+#navbar-layout h2 {
+    color: white;
+    font-weight: 800;
+}
+
+.card-text{
+    text-align: justify;
+}
