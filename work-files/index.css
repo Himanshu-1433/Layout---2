@@ -9,7 +9,16 @@
 #logo-img {
     margin: 10px 20px;
     width: 20%;
+}
 
+#navbar {
+    max-height: 100px;
+    background-color: white;
+}
+
+#img-home {
+    width: 104rem;
+    height: 38rem;
 }
 
 #logo-name {
@@ -29,7 +38,7 @@
     padding: 10% 8%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-    background-color: rgba(73, 115, 117, 0.589);
+    background-color: rgba(73, 115, 117, 0.789);
 }
 
 #navbar-layout h2 {
@@ -77,4 +86,46 @@
 footer {
     padding: 10px;
     background-color: #d06444;
+}
+
+@media screen and (min-width:768px) {
+    #main-section {
+        margin: 0px 00px;
+    }
+
+    #navbar-layout {
+        max-width: 50%;
+        padding: 10% 0%;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    #main-section {
+        margin: 0px 100px;
+    }
+    
+    #navbar-layout {
+        max-width: 30%;
+        padding: 10% 0%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #main-section {
+        margin: 0px 100px;
+    }
+}
+
+
+@media screen and (min-width:2200px) {
+    #main-section {
+        margin: 0px 500px;
+    }
+}
+
+@media screen and (min-width:3000px) {
+    #main-section {
+        margin: 0px 850px;
+    }
 }
