@@ -37,6 +37,44 @@
     font-weight: 800;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
+}
+
+.sub-block {
+    text-align: center;
+    padding: 10px;
+}
+
+.sub-block p {
+    text-align: justify;
+}
+
+.block-1 {
+    padding: 15px 65px;
+    margin: 0px 30px;
+}
+
+.block-1:nth-child(1) {
+    background-color: #497375;
+}
+
+.block-1:nth-child(2) {
+    background-color: #d06444;
+}
+
+.block-1:nth-child(3) {
+    background-color: #d3d3cf;
+    text-align: center;
+}
+
+.block-1:nth-child(3) .sub-block a {
+    text-align: center;
+    text-decoration: none;
+    color: #497375;
+}
+
+footer {
+    padding: 10px;
+    background-color: #d06444;
 }
