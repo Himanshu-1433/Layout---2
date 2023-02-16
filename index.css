@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 :root {
-    --bold-green: #23453ec7;
+    --bold-green: #23453ed0;
     --darkBlue: #507585;
     --green: #497375;
     --narrowblue: #3c555f;
@@ -93,7 +93,7 @@ div#logo {
 }
 
 .block-1 {
-    padding: 15px 65px;
+    padding: 15px 45px;
     margin: 0px 30px;
 }
 
@@ -126,9 +126,47 @@ div#logo {
 
 
 footer {
+    position: relative;
     padding: 10px;
     background-color: #d06444;
 }
+
+#Slider {
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    animation-name: sliding;
+    animation-duration: 2s;
+    transition: .5s;
+    animation-iteration-count: infinite;
+    background-color: var(--bold-green);
+}
+
+@keyframes sliding {
+    0% {
+        margin: 0px 99% 0px 0px;
+    }
+
+    50% {
+        margin: 0px 0px 0px 95%;
+    }
+
+    100% {
+        margin: 0px 95% 0px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1700px) {
     #img-home {
@@ -140,7 +178,7 @@ footer {
 @media screen and (max-width: 2200px) {
 
     #img-home {
-        height: 100vh ;
+        height: 100vh;
     }
 }
 
@@ -167,6 +205,7 @@ footer {
         margin: 0px 30px;
     }
 }
+
 @media screen and (max-width: 992px) {
     #navbar-layout {
         max-width: 80%;
@@ -227,7 +266,7 @@ footer {
 
     #navbar {
         max-height: 15rem;
-        
+
     }
 
 
@@ -240,5 +279,3 @@ footer {
         margin: 0px 30px;
     }
 }
-
-
